@@ -1,0 +1,58 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// DataTables
+@import "~datatables.net-bs4/css/dataTables.bootstrap4";
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+// Clean Blog
+@import "~startbootstrap-clean-blog/scss/clean-blog";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.intro-header .post-heading .meta a, article a {
+  text-decoration: underline;
+}
+
+h2 {
+  padding-top: 22px;
+}
+h3 {
+  padding-top: 15px;
+}
+
+h2 + p, h3 + p, h4 + p {
+  margin-top: 5px;
+}
+
+// Adjust position of captions
+.caption-title {
+  margin-bottom: 5px;
+}
+.caption-title + p {
+  margin-top: 0;
+}
+
+// Change the styling of dt/dd elements
+dt {
+  margin-bottom: 5px;
+}
+dd {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
