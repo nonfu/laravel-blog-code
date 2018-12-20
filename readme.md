@@ -1,6 +1,6 @@
 # Laravel 5.7 开发博客项目代码
 
-注：请结合 [Laravel 入门项目：博客系列教程](https://laravelacademy.org/laravel-blog-tutorial)学习使用此项目。
+> 注：请结合 [Laravel 入门项目：博客系列教程](https://laravelacademy.org/laravel-blog-tutorial)学习使用此项目。
 
 本博客项目后端基于 Laravel 5.7 开发，前端资源基于 Laravel Mix 进行管理，采用全新的 Bootstrap 4 渲染 CSS，本地开发环境默认是 Mac + Laradock。你既可以把它当做小试牛刀的练手项目，也可以把它当做入门 Laravel 框架的学习项目。
 
