@@ -1,7 +1,7 @@
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-        this.page.url = 'http://blog.app/blog/{{ $post->slug }}';
+        this.page.url = '{{ config('app.url') }}/blog/{{ $post->slug }}';
         this.page.identifier = 'blog-{{ $post->slug }}';
     };
     (function () { // DON'T EDIT BELOW THIS LINE
