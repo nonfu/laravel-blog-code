@@ -12,5 +12,5 @@
     })();
 </script>
 <noscript>
-    请启用 JavaScript 查看 <a href="https://disqus.com/?ref_noscript">Disqus 驱动的评论框</a>。
+    请启用 JavaScript 查看 <a href="https://disqus.com/?ref_noscript">Disqus</a> 驱动的评论框。
 </noscript>
