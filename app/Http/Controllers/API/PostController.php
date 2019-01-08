@@ -17,7 +17,7 @@ class PostController extends Controller
             $item['id'] = $post->id;
             $item['title'] = $post->title;
             $item['summary'] = $post->subtitle;
-            $item['thumb'] = config('blog.uploads.webpath') . '/' . $post->page_image;
+            $item['thumb'] = url(config('blog.uploads.webpath') . '/' . $post->page_image);
             $item['posted_at'] = $post->published_at;
             $item['views'] = mt_rand(1, 10000); // 暂时没有实现文章浏览数逻辑，返回随机数
             $items[] = $item;
